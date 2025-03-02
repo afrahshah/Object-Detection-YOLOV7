@@ -22,13 +22,13 @@ The repository is designed for researchers and developers working on multi-modal
 ---
 
 ## Notebooks Overview
-### 1. **Copy_of_RGB_UMR_image_processor.ipynb**
+### 1. **Copy_of_RGB_LWIR_image_processor.ipynb**
 - **Dependencies Installation**: Installs necessary libraries like `matplotlib`, `pandas`, `numpy`, `opencv`, and `tensorflow`.
 - **Google Drive Mounting**: Connects the notebook to Google Drive for data access.
 - **Image Processing**: Applies filters like Gaussian blur, edge detection, and more.
 - **Visualization**: Previews processed images for comparison.
 
-### 2. **Copy_of_RGB_LWRB_image_processor.ipynb**
+### 2. **Copy_of_RGB_LWIR_image_processor.ipynb**
 - **File Path Setup**: Defines paths for RGB, TIR, and fused datasets.
 - **Image Processing Script**: Reads and saves processed images from Google Drive.
 - **Filter Customization**: Allows users to enable/disable filters by commenting/uncommenting code.
