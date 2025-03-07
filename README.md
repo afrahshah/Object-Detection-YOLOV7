@@ -13,27 +13,16 @@ The repository is designed for researchers and developers working on multi-modal
 ---
 
 ## Features
-- **Image Processing**: Tools for applying filters like Gaussian blur, edge detection, and more.
-- **Custom Dataset Support**: Scripts to process and fuse RGB and TIR images.
-- **Visualization**: Preview windows to compare processed images.
+
 - **YOLOv7 Integration**: Notebooks for training custom object detection models using YOLOv7.
 - **Google Drive Integration**: Easy integration with Google Drive for data storage and retrieval.
 
 ---
 
-## Notebooks Overview
-### 1. **Copy_of_RGB_LWIR_image_processor.ipynb**
-- **Dependencies Installation**: Installs necessary libraries like `matplotlib`, `pandas`, `numpy`, `opencv`, and `tensorflow`.
-- **Google Drive Mounting**: Connects the notebook to Google Drive for data access.
-- **Image Processing**: Applies filters like Gaussian blur, edge detection, and more.
-- **Visualization**: Previews processed images for comparison.
+## Notebook Overview
 
-### 2. **Copy_of_RGB_LWIR_image_processor.ipynb**
-- **File Path Setup**: Defines paths for RGB, TIR, and fused datasets.
-- **Image Processing Script**: Reads and saves processed images from Google Drive.
-- **Filter Customization**: Allows users to enable/disable filters by commenting/uncommenting code.
 
-### 3. **Copy_of_YOLOv7_train_test_lwir.ipynb**
+### 1. **Copy_of_YOLOv7_train_test_lwir.ipynb**
 - **YOLOv7 Setup**: Clones the YOLOv7 repository and installs dependencies.
 - **Custom Training**: Trains custom object detection models on RGB, TIR, and RGB-TIR fused datasets.
 
@@ -44,17 +33,13 @@ To use the notebooks in this repository, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/afrahshah/Object-Detection-and-Image-Processing.git
+   git clone https://github.com/afrahshah/Object-Detection-YOLOV7.git
    cd Object-Detection-and-Image-Processing
 2. **Install dependencies**:
    ```bash
    !pip install matplotlib pandas numpy opencv-python tensorflow
  ## Usage
-## **Image Processing**:
- - Open the notebook (`Copy_of_RGB_LWIR_image_processor.ipynb`).
-- Mount Google Drive and set the file paths.
-- Run the image processing script to apply filters like Gaussian blur, edge detection, etc.
-- Preview the processed images using the visualization tools.
+
 ##  **Training Custom Models**:
  - Open the notebook (`Copy_of_YOLOv7_train_test_lwir.ipynb`).
 - Clone the YOLOv7 repository and install dependencies.
